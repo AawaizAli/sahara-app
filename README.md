@@ -1,6 +1,5 @@
 ---
 
-```markdown
 # Sahara: Voice-Based Medical Triage App
 
 Sahara is a multilingual voice-based medical triage app built to help reduce the influence of unlicensed medical practitioners ("quacks") in rural areas of Pakistan. It connects users to verified doctors through an AI-powered voice assistant that works in English, Urdu, and Sindhi.
