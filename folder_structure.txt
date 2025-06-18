@@ -1,0 +1,71 @@
+sahara-app/
+├── README.md
+├── .gitignore
+├── docker-compose.yml
+│
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── api/
+│   │   │   └── v1/
+│   │   │       ├── endpoints/
+│   │   │       │   ├── auth.py
+│   │   │       │   ├── users.py
+│   │   │       │   ├── doctors.py
+│   │   │       │   └── consult.py
+│   │   │       └── __init__.py
+│   │   ├── core/
+│   │   │   ├── config.py
+│   │   │   └── security.py
+│   │   ├── db/
+│   │   │   ├── base.py
+│   │   │   └── session.py
+│   │   ├── models/
+│   │   │   └── user.py
+│   │   ├── schemas/
+│   │   │   └── user.py
+│   │   ├── services/
+│   │   │   ├── matchmaking.py
+│   │   │   └── voice_interface.py
+│   └── tests/
+│       ├── unit/
+│       └── integration/
+│
+├── bots/
+│   ├── aawaiz/
+│   │   ├── main.py
+│   │   └── requirements.txt
+│   ├── ashhal/
+│   │   ├── main.py
+│   │   └── requirements.txt
+│   ├── umer/
+│   │   ├── main.py
+│   │   └── requirements.txt
+│   └── shuja/
+│       ├── main.py
+│       └── requirements.txt
+│
+├── android-app/
+│   ├── app/
+│   │   ├── src/
+│   │   │   ├── main/
+│   │   │   │   ├── java/com/sahara/
+│   │   │   │   │   ├── ui/
+│   │   │   │   │   ├── data/
+│   │   │   │   │   ├── network/
+│   │   │   │   │   ├── viewmodel/
+│   │   │   │   │   └── di/
+│   │   │   │   └── res/
+│   │   │   └── test/
+│   └── build.gradle
+│
+├── ios-app/
+│   ├── SaharaApp/
+│   │   ├── Views/
+│   │   ├── ViewModels/
+│   │   ├── Models/
+│   │   ├── Networking/
+│   │   ├── Resources/
+│   │   └── AppDelegate.swift
+│   └── SaharaApp.xcodeproj/
